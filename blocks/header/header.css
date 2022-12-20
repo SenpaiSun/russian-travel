@@ -1,0 +1,5 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, max-content) minmax(min-content, max-content);
+  margin: 28px 48px 0;
+}
