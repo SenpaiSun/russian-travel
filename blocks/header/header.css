@@ -1,5 +1,9 @@
 .header {
-  display: grid;
-  grid-template-columns: 1fr minmax(min-content, max-content) minmax(min-content, max-content);
-  margin: 28px 48px 0;
+  max-width: 1184px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto 56px;
+  padding-top: 28px;
+  width: calc(100% - 96px);
 }
