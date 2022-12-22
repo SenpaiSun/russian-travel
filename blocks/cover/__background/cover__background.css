@@ -1,0 +1,88 @@
+.cover__background {
+  background-image: linear-gradient(
+    rgba(42, 44, 47, 0.3),
+    rgba(42, 44, 47, 0.3)),
+  url(../../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 1184px;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover__background:hover {
+  animation: cover__animation ease-in .3s forwards;
+}
+
+@keyframes cover__animation {
+  from {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.3),
+    rgba(42, 44, 47, 0.3)),
+  url(../../../images/cover-trains.jpg);
+  }
+  10% {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.35),
+    rgba(42, 44, 47, 0.35)),
+  url(../../../images/cover-trains.jpg);
+  }
+  20% {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.4),
+    rgba(42, 44, 47, 0.4)),
+  url(../../../images/cover-trains.jpg);
+  }
+  30% {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.45),
+    rgba(42, 44, 47, 0.45)),
+  url(../../../images/cover-trains.jpg);
+  }
+  40% {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.5),
+    rgba(42, 44, 47, 0.5)),
+  url(../../../images/cover-trains.jpg);
+  }
+  50% {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.6),
+    rgba(42, 44, 47, 0.6)),
+  url(../../../images/cover-trains.jpg);
+  }
+  60% {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.65),
+    rgba(42, 44, 47, 0.65)),
+  url(../../../images/cover-trains.jpg);
+  }
+  70% {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.7),
+    rgba(42, 44, 47, 0.7)),
+  url(../../../images/cover-trains.jpg);
+  }
+  80% {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.75),
+    rgba(42, 44, 47, 0.75)),
+  url(../../../images/cover-trains.jpg);
+  }
+  90% {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.77),
+    rgba(42, 44, 47, 0.77)),
+  url(../../../images/cover-trains.jpg);
+  }
+  100% {
+    background-image: linear-gradient(
+    rgba(42, 44, 47, 0.8),
+    rgba(42, 44, 47, 0.8)),
+  url(../../../images/cover-trains.jpg);
+  }
+}
