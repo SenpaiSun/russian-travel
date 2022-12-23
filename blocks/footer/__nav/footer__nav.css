@@ -3,3 +3,11 @@
   grid-template-columns: repeat(5, minmax(min-content, max-content));
   column-gap: 18px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__nav {
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
+    row-gap: 32px;
+  }
+}

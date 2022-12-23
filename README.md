@@ -1,23 +1,32 @@
-# Проект: Путешествие по России
+# Проектная работа "Путешествие по России" в [Яндекс.Практикум](https://practicum.yandex.ru) по профессии ["Веб-разработчик"](https://practicum.yandex.ru/web/).
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+## Описание:
+Проектная работа "Путешествие по России" представляет из себя одностраничный сайт, который был сверстан по методологии [БЭМ](https://ru.bem.info/methodology/), c использованием файловой структуры [Nested БЭМ](https://ru.bem.info/methodology/filestructure/#nested).
 
-**Интро**
+### Технологии, применяемые в проекте:
+1. HTML5:
+* semantic markup;
+* BEM methodology.
+2. CSS:
+* flexbox;
+* grid;
+* animation;
+* и многие другие.
+3. File structure:
+* Nesded BEM.
+4. Figma.
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+#### Инструкция по использованию:
 
-**Figma**
+1. Над списком файлов щелкните "Code".
+2. Скопируйте URL-адрес репозитория.
+3. Откройте терминал и введите следующую команду:
+```$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY```
+4. Нажмите ввод, чтобы создать локальный клон.
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+Подробнее по клонированию указано [здесь](https://docs.github.com/ru/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-**Картинки**
+### Ссылки:
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
-
-Удачи!
+* [Макет Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка на работу](https://senpaisun.github.io/russian-travel/).
