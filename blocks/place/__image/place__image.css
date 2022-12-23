@@ -1,22 +1,17 @@
 .place__image {
-  width: 100%;
-  max-width: 460px;
-}
-
-@media screen and (max-width: 1279px) {
-  .place__image {
-    max-width: 440px;
-  }
+  width: 480px;
+  height: auto;
+  min-width: 320px;
 }
 
 @media screen and (max-width: 1023px) {
   .place__image {
-    max-width: 340px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__image {
-    max-width: 320px;
+    width: 100%;
   }
 }

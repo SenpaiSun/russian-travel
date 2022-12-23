@@ -6,16 +6,17 @@
   line-height: 14px;
   font-weight: normal;
   margin: 8px 0 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1023px) {
   .lead__caption {
-    padding: 24px;
+    margin-left: 2.34vw;
   }
 }
 
 @media screen and (max-width: 767px) {
 .lead__caption {
-  padding: 16px;
+  margin-left: 16px;
   }
 }

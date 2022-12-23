@@ -8,21 +8,21 @@
 
 @media screen and (max-width: 1279px) {
   .footer {
-    max-width: 928px;
+    max-width: calc(100% - 2 * 48px);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .footer {
-    max-width: 720px;
+    max-width: calc(100% - 2 * 24px);
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer {
-    max-width: 200px;
+    max-width: calc(100% - 16px);
     grid-template-columns: minmax(min-content, max-content);
-    min-width: 320px;
+    min-width: 304px;
     margin: 0 auto;
   }
 }
