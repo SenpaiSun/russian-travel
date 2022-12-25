@@ -22,7 +22,6 @@
   .footer {
     max-width: calc(100% - 16px);
     grid-template-columns: minmax(min-content, max-content);
-    min-width: 304px;
     margin: 0 auto;
   }
 }

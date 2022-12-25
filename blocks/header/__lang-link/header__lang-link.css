@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 767px) {
   .header__lang-link {
-    font-size: 3.13vw;
+    font-size: 18px;
     line-height: 1.1;
   }
 }
