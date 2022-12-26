@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 767px) {
   .footer {
-    max-width: calc(100% - 16px);
+    max-width: calc(100% - 32px);
     grid-template-columns: minmax(min-content, max-content);
     margin: 0 auto;
   }
