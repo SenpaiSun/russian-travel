@@ -73,7 +73,7 @@
     rgba(42, 44, 47, 0.3)),
   url(../../../images/cover-trains.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   margin: 0 auto;
   max-width: 1184px;
   min-height: 740px;
